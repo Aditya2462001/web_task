@@ -1,0 +1,412 @@
+.second__container
+{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(212, 241, 250);
+    display: flex;
+    padding: 10px 15rem;
+    position: relative;
+}
+
+.secondcontainer_icon
+{
+    position: absolute;
+    top: 1.5rem;
+    left: 10rem;
+    background-color: rgb(86, 159, 243);
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+
+}
+.secondcontainer_icon .fa-user
+{
+    font-size: 25px;
+    color: #fff;
+}
+.second__left_block
+{
+    display: flex;
+    flex-direction: column;
+}
+.second__left_block h2
+{
+    font-size: 25px;
+    margin-bottom: 2rem;
+    font-weight: 400;
+    color:rgb(141, 152, 252) ;
+}
+.second__left_block h2 span
+{
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: 400;
+    color: rgb(108, 117, 245);
+}
+.add_candidate_block
+{
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+.addcandidate_title h3
+{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: 500;
+}
+.addcandidate_pres
+{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 10px;
+}
+.addcandidate_pre 
+{
+    display: flex;
+    flex-direction: column;
+}
+.addcandidate_pre div:nth-child(1)
+{
+    width: 100px;
+    height: 8px;
+    background-color: rgba(216, 215, 215, 0.76);
+    margin: 10px;
+    margin-top: 0;
+    margin-bottom: 7px;
+    border-radius: 30px;
+
+}
+.addcandidate_pre:nth-child(1) div:nth-child(1)
+{
+
+    background-color: rgb(36, 192, 240);
+}
+.addcandidate_pre:nth-child(2) div:nth-child(1)
+{
+
+    background-color: rgb(62, 183, 240);
+}
+
+.addcandidate_pre div:nth-child(2)
+{
+    width: 70px;
+    height: 7px;
+    background-color: rgba(216, 215, 215, 0.76);
+    margin: 10px;
+    margin-top: 0;
+    border-radius: 30px;
+
+}
+
+.addcandidate_second_title 
+{
+    display: flex;
+    flex-direction: column;
+} 
+.addcandidate_second_title p 
+{
+    margin-left: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    font-weight: 500;
+}
+.addcandidate_pre2
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.addcandidate_pre2 div:nth-child(1)
+{
+    width: 400px;
+    height: 8px;
+    border-radius: 30px;
+    background-color: rgba(216, 215, 215, 0.76);
+    margin: 10px;
+    margin-left: 20px;
+
+}
+.addcandidate_pre2 div:nth-child(2)
+{
+    width: 300px;
+    height: 8px;
+    border-radius: 30px;
+    background-color: rgba(216, 215, 215, 0.76);
+    margin: 10px;
+    margin-top: 0;
+    margin-left: 20px;
+
+}
+
+.addcandidate__details_block
+{
+    border: 1px solid rgb(219, 219, 219);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+    position: relative;
+}
+.addcandidate__details_block::before
+{
+    content: "";
+    position: absolute;
+    right: -2px;
+    top: -2px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(231, 231, 231);
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff;
+    background-color: #fff;
+}
+.addcandidate__details_block::after
+{
+    content: "";
+    position: absolute;
+    right: -10px;
+    top: 24px;
+    width: 69px;
+    height:1px ;
+    background-color: rgb(221, 221, 221);
+    transform: rotate(45deg);
+}
+.addcandidate__details_block_title
+{
+    font-size: 14px;
+    font-weight: 600;
+}
+.addcandidate__details_bottom
+{
+    display: flex;
+    
+}
+.details__left
+{
+    flex: 0.6;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.details__left div
+{
+    margin: 10px 0px;
+}
+.details__left div div:nth-child(1)
+{
+    width: 250px;
+    height: 8px;
+    border-radius: 30px;
+    background-color: rgba(216, 215, 215, 0.76);
+    margin: 8px 0px;
+}
+.details__left div div:nth-child(2)
+{
+    width:200px;
+    height: 8px;
+    border-radius: 30px;
+    background-color: rgba(216, 215, 215, 0.76);
+    margin: 8px 0px;
+    margin-bottom: 0;
+}
+.details__left div:nth-child(1)
+{
+    margin-bottom: 0;
+}
+.details__left div:nth-child(2)
+{
+    margin-top: 0;
+}
+.details__left div:nth-child(5)
+{
+    margin-top: 0;
+}
+.details__left div:nth-child(2) div:nth-child(1)
+{
+    margin-bottom:0 ;
+}
+.details__left div:nth-child(1) div:nth-child(2)
+{
+    margin-top:0 ;
+}
+
+.details__left div:nth-child(4) div:nth-child(2)
+{
+    margin-bottom:0 ;
+}
+.details__left div:nth-child(5) div:nth-child(1)
+{
+    margin-top:0 ;
+}
+
+.details__right
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    padding-top:1.5rem;
+}
+.details__right div
+{
+    margin-top: 15px;
+}
+.details__right div p
+{
+    font-size: 12px;
+    color: rgb(214, 212, 212);
+}
+.details__right div h4
+{
+    font-size: 13px;
+}
+.details__right .details__button button
+{
+    font-size: 10px ;
+    border: none;
+    background-color: rgb(115, 115, 250);
+    padding: 10px 30px;
+    margin-top: 10px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+
+/* =============================== second__right_block= =========== */
+.second__right_block
+{
+    width: 100%;
+}
+.second__jobDetails__card
+{
+    margin: 20px;
+    margin-left: 5rem;
+    background: #fff;
+    z-index: 1;
+    width: 380px;
+    height: fit-content;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(15, 15, 15, 0.222);
+}
+
+.second__jobDetails__title_block
+{
+    margin-bottom: 1rem;
+
+}
+.second__jobDetails__content tr
+{
+   display: flex;
+   margin-top:1.5rem ;
+}
+
+.second__jobDetails__content tr td:nth-child(1)
+{
+    flex: 0.4;
+    justify-self: flex-start;
+    padding-right:10px ;
+    align-self: flex-start;
+    padding:10px ;
+    font-weight: 600;
+    
+}
+.second__jobDetails__content tr td:nth-child(2)
+{
+    flex: 0.6;
+    justify-self: flex-start;
+    background: rgb(199, 238, 248);
+    padding: 10px;
+    color: rgb(12, 120, 150);
+    font-size: 12px;
+}
+.second__jobDetails__content tr td:nth-child(2) p
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.second__jobDetails__content tr td:nth-child(2) p .fa-check-circle
+{
+    font-size: 15px;
+    color: rgb(41, 221, 41);
+}
+
+/* ================== employee__directory_blcok ================ */
+.employee__directory_blcok
+{
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    width: 380px;
+    padding: 10px;
+    margin: 30px;
+    margin-left: 5rem;
+}
+.employee__directory__title
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.employee__directory__title h3
+{
+    padding-left: 15px;
+    font-size: 14px;
+}
+.employee__directory__title p
+{
+    font-size: 12px;
+    padding-right: 15px;
+
+}
+.employee__directories
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.employee_dir
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(15, 15, 15, 0.152);
+
+}
+.employee_dir img
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.employee_dir h4
+{
+    font-size: 14px;
+    color: #333;
+}
+.employee_dir p
+{
+    font-size: 10px;
+    color: rgba(165, 164, 164, 0.76);
+    margin-bottom: 10px;
+}
+.employee_dir span
+{
+    color: rgba(165, 164, 164, 0.76);
+    font-size: 10px;
+}
